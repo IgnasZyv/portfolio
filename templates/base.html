@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+
+    {% endblock %}
+  </head>
+  <body>
+    {% include "navbar.html" %}
+    {% block content %}
+      This was replaced haha
+    {% endblock %}
+    <h3>Hello from base</h3>
+  </body>
+</html>
